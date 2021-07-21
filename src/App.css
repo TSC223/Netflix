@@ -1,1 +1,44 @@
 /* Other rules */
+body {
+  background: linear-gradient(136deg, black, #212121);
+  color: white;
+  font-family: "arial";
+}
+.Netflix {
+  color: red;
+  font-size: 25px;
+  margin-left: 1%;
+  padding: 1%;
+}
+.navigation {
+  display: flex;
+  margin-bottom: 4%;
+}
+.la_nav a {
+  margin-left: 1.5%;
+  color: white;
+  text-decoration: none;
+}
+.la_nav {
+  padding: 3.5%;
+  width: 100%;
+  font-size: 11px;
+}
+.cat_section {
+  padding-left: 2%;
+}
+.cat_section span {
+  font-weight: bold;
+}
+.tsc {
+  padding: 2%;
+}
+.tab {
+  display: flex;
+  overflow-y: scroll;
+  background: black;
+  height: 140px;
+}
+.tab img {
+  margin-right: 1%;
+}
